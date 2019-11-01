@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-ns-slugify-fixed-on-edit",
+  "id": "nodebb-plugin-url-slugify",
   "name": "NodeBB Slugify",
   "description": "Auto transliteration of slugs.",
-  "url": "https://github.com/Serhey/nodebb-plugin-ns-slugify-fixed-on-edit",
+  "url": "https://github.com/khaiphan/nodebb-plugin-url-slugify",
   "library": "./plugin.js",
   "hooks": [
     {

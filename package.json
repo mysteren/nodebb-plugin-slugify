@@ -2,80 +2,84 @@
   "_args": [
     [
       {
-        "raw": "nodebb-plugin-ns-slugify-fixed-on-edit@1.1.4",
+        "raw": "nodebb-plugin-url-slugify@0.0.1",
         "scope": null,
-        "escapedName": "nodebb-plugin-ns-slugify-fixed-on-edit",
-        "name": "nodebb-plugin-ns-slugify-fixed-on-edit",
-        "rawSpec": "1.1.4",
-        "spec": "1.1.4",
+        "escapedName": "nodebb-plugin-url-slugify",
+        "name": "nodebb-plugin-url-slugify",
+        "rawSpec": "0.0.1",
+        "spec": "0.0.1",
         "type": "version"
       },
       "/home/user/nodebb"
     ]
   ],
-  "_from": "nodebb-plugin-ns-slugify-fixed-on-edit@1.1.4",
-  "_id": "nodebb-plugin-ns-slugify-fixed-on-edit@1.1.4",
+  "_from": "nodebb-plugin-url-slugify@0.0.1",
+  "_id": "nodebb-plugin-url-slugify@0.0.1",
   "_inCache": true,
-  "_location": "/nodebb-plugin-ns-slugify-fixed-on-edit",
-  "_nodeVersion": "5.8.0",
+  "_location": "/nodebb-plugin-url-slugify",
+  "_nodeVersion": "10.17.0",
   "_npmUser": {
-    "name": "dreadfull",
-    "email": "deathwings9@gmail.com"
+    "name": "khaiphan",
+    "email": "khai.phanvan.nt@gmail.com"
   },
-  "_npmVersion": "3.7.3",
+  "_npmVersion": "6.11.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nodebb-plugin-ns-slugify-fixed-on-edit@1.1.4",
+    "raw": "nodebb-plugin-url-slugify@0.0.1",
     "scope": null,
-    "escapedName": "nodebb-plugin-ns-slugify-fixed-on-edit",
-    "name": "nodebb-plugin-ns-slugify-fixed-on-edit",
-    "rawSpec": "1.1.4",
-    "spec": "1.1.4",
+    "escapedName": "nodebb-plugin-url-slugify",
+    "name": "nodebb-plugin-url-slugify",
+    "rawSpec": "0.0.1",
+    "spec": "0.0.1",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
   "_shrinkwrap": null,
-  "_spec": "nodebb-plugin-ns-slugify-fixed-on-edit@1.1.4",
+  "_spec": "nodebb-plugin-url-slugify@0.0.1",
   "_where": "/home/user/nodebb",
   "author": {
-    "name": "Dreadfull"
+    "name": "khaiphan"
   },
   "bugs": {
-    "url": "https://github.com/Serhey/nodebb-plugin-ns-slugify-fixed-on-edit/issues"
+    "url": "https://github.com/khaiphan/nodebb-plugin-url-slugify/issues"
   },
   "dependencies": {
-    "translitit-cyrillic-russian-to-latin": "^0.1.0"
+    "slugify": "latest"
   },
   "description": "Auto transliteration of slugs.",
   "devDependencies": {},
   "directories": {},
-  "homepage": "https://github.com/Serhey/nodebb-plugin-ns-slugify-fixed-on-edit#readme",
+  "homepage": "https://github.com/khaiphan/nodebb-plugin-url-slugify#readme",
   "keywords": [
     "slugs",
-    "cyrillic"
+    "cyrillic",
+    "unicode",
+    "slugify",
+    "nodebb-slugify",
+    "vietnamese"
   ],
   "license": "MIT",
   "main": "plugin.js",
   "maintainers": [
     {
-      "name": "Dreadfull",
-      "email": "deathwings9@gmail.com"
+      "name": "khaiphan",
+      "email": "khai.phanvan.nt@gmail.com"
     }
   ],
-  "name": "nodebb-plugin-ns-slugify-fixed-on-edit",
+  "name": "nodebb-plugin-url-slugify",
   "nbbpm": {
-    "compatibility": "^1.7.0"
+    "compatibility": "^1.12.0"
   },
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Serhey/nodebb-plugin-ns-slugify-fixed-on-edit.git"
+    "url": "git+https://github.com/khaiphan/nodebb-plugin-url-slugify.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.4"
+  "version": "0.0.1"
 }
