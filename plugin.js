@@ -13,7 +13,14 @@
   var slugify = require("slugify");
 
   function convert(url) {
-    return `/${slugify(url)}`;
+    var slug = url.toLowerCase();
+
+    if (slug.match(/\/(.*)/)) {
+      var content = slug.replace(/(.+\/)(.*)$/, "$2");
+      content = slugify(content);
+      slug = slug.replace(/(.+\/)(.*)$/, `$1${content}`);
+    }
+    return slug;
   }
 
   //NodeBB list of Hooks: https://github.com/NodeBB/NodeBB/wiki/Hooks

@@ -2,19 +2,19 @@
   "_args": [
     [
       {
-        "raw": "nodebb-plugin-url-slugify@0.0.2",
+        "raw": "nodebb-plugin-url-slugify@0.0.3",
         "scope": null,
         "escapedName": "nodebb-plugin-url-slugify",
         "name": "nodebb-plugin-url-slugify",
-        "rawSpec": "0.0.2",
-        "spec": "0.0.2",
+        "rawSpec": "0.0.3",
+        "spec": "0.0.3",
         "type": "version"
       },
       "/home/user/nodebb"
     ]
   ],
-  "_from": "nodebb-plugin-url-slugify@0.0.2",
-  "_id": "nodebb-plugin-url-slugify@0.0.2",
+  "_from": "nodebb-plugin-url-slugify@0.0.3",
+  "_id": "nodebb-plugin-url-slugify@0.0.3",
   "_inCache": true,
   "_location": "/nodebb-plugin-url-slugify",
   "_nodeVersion": "10.17.0",
@@ -25,19 +25,19 @@
   "_npmVersion": "6.11.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nodebb-plugin-url-slugify@0.0.2",
+    "raw": "nodebb-plugin-url-slugify@0.0.3",
     "scope": null,
     "escapedName": "nodebb-plugin-url-slugify",
     "name": "nodebb-plugin-url-slugify",
-    "rawSpec": "0.0.2",
-    "spec": "0.0.2",
+    "rawSpec": "0.0.3",
+    "spec": "0.0.3",
     "type": "version"
   },
   "_requiredBy": [
     "#USER"
   ],
   "_shrinkwrap": null,
-  "_spec": "nodebb-plugin-url-slugify@0.0.2",
+  "_spec": "nodebb-plugin-url-slugify@0.0.3",
   "_where": "/home/user/nodebb",
   "author": {
     "name": "khaiphan"
@@ -81,5 +81,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
