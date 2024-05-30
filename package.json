@@ -1,57 +1,16 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "nodebb-plugin-url-slugify@0.0.3",
-        "scope": null,
-        "escapedName": "nodebb-plugin-url-slugify",
-        "name": "nodebb-plugin-url-slugify",
-        "rawSpec": "0.0.3",
-        "spec": "0.0.3",
-        "type": "version"
-      },
-      "/home/user/nodebb"
-    ]
-  ],
-  "_from": "nodebb-plugin-url-slugify@0.0.3",
-  "_id": "nodebb-plugin-url-slugify@0.0.3",
-  "_inCache": true,
-  "_location": "/nodebb-plugin-url-slugify",
-  "_nodeVersion": "10.17.0",
-  "_npmUser": {
-    "name": "khaiphan",
-    "email": "khai.phanvan.nt@gmail.com"
-  },
-  "_npmVersion": "6.11.3",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "nodebb-plugin-url-slugify@0.0.3",
-    "scope": null,
-    "escapedName": "nodebb-plugin-url-slugify",
-    "name": "nodebb-plugin-url-slugify",
-    "rawSpec": "0.0.3",
-    "spec": "0.0.3",
-    "type": "version"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_shrinkwrap": null,
-  "_spec": "nodebb-plugin-url-slugify@0.0.3",
-  "_where": "/home/user/nodebb",
+  "name": "nodebb-plugin-slugify",
+  "version": "1.1.1",
   "author": {
-    "name": "khaiphan"
+    "name": "TimofeyC"
   },
   "bugs": {
-    "url": "https://github.com/khaiphan/nodebb-plugin-url-slugify/issues"
+    "url": "https://github.com/mysteren/nodebb-plugin-slugify/issues"
   },
-  "dependencies": {
-    "slugify": "latest"
-  },
+  "readmeFilename": "README.md",
   "description": "Auto transliteration of slugs.",
-  "devDependencies": {},
   "directories": {},
-  "homepage": "https://github.com/khaiphan/nodebb-plugin-url-slugify#readme",
+  "homepage": "https://github.com/mysteren/nodebb-plugin-slugify#readme",
   "keywords": [
     "slugs",
     "cyrillic",
@@ -60,26 +19,44 @@
     "nodebb-slugify",
     "vietnamese"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "license": "MIT",
-  "main": "plugin.js",
+  "main": "libruary.js",
   "maintainers": [
     {
-      "name": "khaiphan",
-      "email": "khai.phanvan.nt@gmail.com"
+      "name": "TimofeyC",
+      "email": "mysterenct@gmail.com"
     }
   ],
-  "name": "nodebb-plugin-url-slugify",
+  
   "nbbpm": {
-    "compatibility": "^1.12.0"
+    "compatibility": "^3.2.0"
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-angular": "19.3.0",
+    "eslint": "8.x",
+    "eslint-config-nodebb": "0.2.1",
+    "eslint-plugin-import": "2.x",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.5"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khaiphan/nodebb-plugin-url-slugify.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.0.3"
+    "url": "https://github.com/mysteren/nodebb-plugin-slugify"
+  }
 }
